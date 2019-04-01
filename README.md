@@ -26,6 +26,9 @@ GPTune currently exists to provide a number of pretrained models for people to p
 
 * [Custom Poetry Collection](https://drive.google.com/file/d/1w3fNoQJcJCVlouxQbTpef2IKNdi7BpgF/view?usp=sharing)
 * [D&D Biographies](https://drive.google.com/file/d/1qBxIX_V3uXoTY24BLJHlqSpk2m3mgLzd/view?usp=sharing) (Replication of [Janelle Shane](https://twitter.com/JanelleCShane)'s Excellent Work)
+* [Magic: The Gathering Cards](https://drive.google.com/file/d/1gXPWQmDyrEp51uGD5eQvrvKlpGc2GnYe/view?usp=sharing)
+* [Plot Summaries](https://drive.google.com/file/d/1E2LYz-EWamXEyubzU3w4gExea8o8fbO1/view?usp=sharing)
+* [Science Fiction Stories](https://drive.google.com/file/d/156YWiNJb8iz27HeY4Ud9Ezm4O9KZHYdh/view?usp=sharing)
 
 ### Acknowledgements
 
