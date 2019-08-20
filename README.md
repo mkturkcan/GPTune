@@ -8,7 +8,13 @@ GPTune attempts to make finetuning the recently released GPT-2 model easier by p
 
 In terminal, run
 ```
-python gptune.py DATASET_NAME --name MODEL_NAME_GIVEN_BY_YOU --mode train
+python gptune.py DATASET_NAME --run_name MODEL_NAME_GIVEN_BY_YOU --mode train
+```
+
+There are other parameters; right now for training an example that will work well for the 774M model on a 16GB RAM single-GPU setting is:
+
+```
+python gptune.py --dataset DATASET_NAME --run_name ddbios2 --optimizer adam --only_train_transformer_layers --truncate_training 128
 ```
 
 ### Testing
