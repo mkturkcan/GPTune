@@ -21,7 +21,7 @@ python gptune.py --dataset DATASET_NAME --run_name ddbios2 --optimizer adam --on
 
 In terminal, run
 ```
-python gptune.py DATASET_NAME --name MODEL_NAME_GIVEN_BY_YOU --mode test --sample_num 20
+python gptune.py DATASET_NAME --run_name MODEL_NAME_GIVEN_BY_YOU --mode test --sample_num 20
 ```
 
 For more settings you can look at the source code (specifically, gptune.py).
@@ -32,9 +32,9 @@ GPTune currently exists to provide a number of pretrained models for people to p
 
 * [Custom Poetry Collection](https://drive.google.com/file/d/1w3fNoQJcJCVlouxQbTpef2IKNdi7BpgF/view?usp=sharing)
 * [D&D Biographies](https://drive.google.com/file/d/1qBxIX_V3uXoTY24BLJHlqSpk2m3mgLzd/view?usp=sharing) (Replication of [Janelle Shane](https://twitter.com/JanelleCShane)'s Excellent Work)
-* [Magic: The Gathering Cards](https://drive.google.com/file/d/1gXPWQmDyrEp51uGD5eQvrvKlpGc2GnYe/view?usp=sharing)
-* [Plot Summaries](https://drive.google.com/file/d/1E2LYz-EWamXEyubzU3w4gExea8o8fbO1/view?usp=sharing)
-* [Science Fiction Stories](https://drive.google.com/file/d/156YWiNJb8iz27HeY4Ud9Ezm4O9KZHYdh/view?usp=sharing)
+* [Magic: The Gathering Cards](https://drive.google.com/file/d/1HP5DssYWR_9Io2yLdP6Qm1PtNwteFJp3/view?usp=sharing)
+* [Plot Summaries](https://drive.google.com/file/d/1U8tf76BvUbXv2vAelG3qKOEwTPhyVmkd/view?usp=sharing)
+* [Science Fiction Stories](https://drive.google.com/file/d/1mfmEoTW1b-Wo7r6EmcGTCRb-3Wp6QMN4/view?usp=sharing)
 
 ### Acknowledgements
 
