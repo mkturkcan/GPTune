@@ -325,6 +325,7 @@ def main():
                     if counter>100:
                         if (avg_loss[0] / avg_loss[1])<args.loss_threshold:
                             counter = args.max_iterations+1
+                save()
             elif args.mode == "interactive":
                 generate_interactive_samples()
             else:
