@@ -30,7 +30,9 @@ You can change sample_num to a different number.
 
 #### Interactive Conditional Samples
 
+```
 python gptune.py --dataset DATASET_NAME --run_name harry --mode interactive --sample_num 1
+```
 
 For more settings you can look at the source code (specifically, gptune.py).
 
