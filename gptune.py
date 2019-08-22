@@ -237,6 +237,32 @@ def main():
                                  'samples-{}').format(counter), 'w') as fp:
                 fp.write('\n'.join(all_text))
 
+        def generate_interactive_samples():
+            print('Interactive Generator')
+            raw_text = input("Model prompt >>> ")
+            while not raw_text:
+                print('Prompt should not be empty!')
+                raw_text = input("Model prompt >>> ")
+            context_tokens = enc.encode(raw_text)
+            all_text = []
+            index = 0
+            while index < args.sample_num:
+                out = sess.run(
+                    tf_sample,
+                    feed_dict={context: args.batch_size * [context_tokens]})
+                for i in range(min(args.sample_num - index, args.batch_size)):
+                    text = enc.decode(out[i])
+                    text = '======== SAMPLE {} ========\n{}\n'.format(
+                        index + 1, text)
+                    all_text.append(text)
+                    index += 1
+            print(text)
+            maketree(os.path.join(SAMPLE_DIR, args.run_name))
+            with open(
+                    os.path.join(SAMPLE_DIR, args.run_name,
+                                 'interactive-samples-{}').format(counter), 'w') as fp:
+                fp.write('\n'.join(all_text))
+
         def validation():
             print('Calculating validation loss...')
             losses = []
@@ -298,6 +324,8 @@ def main():
                     if counter>100:
                         if (avg_loss[0] / avg_loss[1])<args.loss_threshold:
                             counter = args.max_iterations+1
+            elif args.mode == "interactive":
+                generate_interactive_samples()
             else:
                 generate_samples()
         except KeyboardInterrupt:
