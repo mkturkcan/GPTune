@@ -179,7 +179,7 @@ def main():
         print('Loading checkpoint', ckpt)
         saver.restore(sess, ckpt)
 
-        if mode != 'interactive':
+        if args.mode != 'interactive':
             print('Loading dataset...')
             chunks = load_dataset(enc, args.dataset, args.combine)
             data_sampler = Sampler(chunks)
