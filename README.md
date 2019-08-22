@@ -14,7 +14,7 @@ python gptune.py DATASET_NAME --run_name MODEL_NAME_GIVEN_BY_YOU --mode train
 There are other parameters; right now for training an example that will work well for the 774M model on a 16GB RAM single-GPU setting is:
 
 ```
-python gptune.py --dataset DATASET_NAME --run_name ddbios2 --optimizer adam --only_train_transformer_layers --truncate_training 128
+python gptune.py --dataset DATASET_NAME --run_name MODEL_NAME_GIVEN_BY_YOU --optimizer adam --only_train_transformer_layers --truncate_training 128
 ```
 
 ### Testing
@@ -31,7 +31,7 @@ You can change sample_num to a different number.
 #### Interactive Conditional Samples
 
 ```
-python gptune.py --dataset DATASET_NAME --run_name harry --mode interactive --sample_num 1
+python gptune.py --run_name MODEL_NAME_GIVEN_BY_YOU --mode interactive --sample_num 1
 ```
 
 For more settings you can look at the source code (specifically, gptune.py).
