@@ -40,6 +40,18 @@ For more settings you can look at the source code (specifically, gptune.py).
 
 GPTune currently exists to provide a number of pretrained models for people to plug&play with.
 
+
+### 774M Models:
+
+* [Custom Poetry Collection](https://drive.google.com/file/d/1s8_xTJtL5Wm3XHTHVyhAk6Vvze0pTy8H/view?usp=sharing)
+* [D&D Biographies](https://drive.google.com/file/d/1oURLzzU9WlFW1qiGKZIPyGF9-KOhm2at/view?usp=sharing) (Based on [Janelle Shane](https://twitter.com/JanelleCShane)'s Excellent Work)
+* [Magic: The Gathering Cards](https://drive.google.com/file/d/1mEeBvbkncAN6z9BPrM2Oq2SP5UgXUhpG/view?usp=sharing)
+* [Star Trek Scripts](https://drive.google.com/file/d/1NT6CXl7R40652nC_pwxcnc_K5FvGBpA_/view?usp=sharing)
+
+#### Training Samples:
+
+You can see the progression of the training through the samples presented [here.](https://drive.google.com/file/d/1P1x9ZGJK59Vd-bVdWkNuWHbIeLWZ_2Ak/view?usp=sharing)
+
 ### 117M Models:
 
 The following models are for the 117M parameter model.
@@ -49,10 +61,6 @@ The following models are for the 117M parameter model.
 * [Magic: The Gathering Cards](https://drive.google.com/file/d/1HP5DssYWR_9Io2yLdP6Qm1PtNwteFJp3/view?usp=sharing)
 * [Plot Summaries](https://drive.google.com/file/d/1U8tf76BvUbXv2vAelG3qKOEwTPhyVmkd/view?usp=sharing)
 * [Science Fiction Stories](https://drive.google.com/file/d/1mfmEoTW1b-Wo7r6EmcGTCRb-3Wp6QMN4/view?usp=sharing)
-
-### 774M Models:
-
-Coming soon!
 
 ### Acknowledgements
 
